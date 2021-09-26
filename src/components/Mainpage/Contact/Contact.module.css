@@ -1,0 +1,132 @@
+.contactSection {
+  font-family: 'Montserrat', sans-serif;
+  background: #171727;
+  color: #FFF;
+  height: 100%;
+  padding: 3rem 3.5rem 3rem 5rem;
+}
+
+.contactMeTitle {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #bd3925;
+}
+
+.container {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Discussion Section  */
+.discussion {
+  height: 100%;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.H1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1.5rem;
+  letter-spacing: 1px;
+}
+
+.text {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 100;
+  width: 80%;
+  margin: 0 2rem 1rem 0;
+}
+
+.line {
+  width: 40%;
+  height: 2px;
+  background-color: #ef3419;
+  display: inline-block;
+}
+
+.info {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin: 2rem 0;
+  color: #be2b15;
+}
+
+.info a {
+  text-decoration: none;
+  list-style: none;
+  color: #b43e2c;
+}
+
+.skypelink {
+  color: #00aff0;
+  text-decoration: none;
+  transition: 0.5s ease;
+  margin-left: 0.5rem;
+}
+
+.skypelink:hover {
+  color: blue;
+}
+
+.twitter {
+  color: #1DA1F2;
+  text-decoration: none;
+  transition: 0.5s ease;
+  margin-left: 0.5rem;
+}
+
+.twitter:hover {
+  color: blue;
+}
+
+.infolinks {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 1.5rem 0;
+} 
+
+.github:hover {
+  color: #286ac0;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.instagram:hover {
+  color: #dd2a7b;
+}
+
+.Links {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 1.5rem 0 0;
+  font-size: 2rem;
+}
+
+/* Contact Form section  */
+
+.contactForm {
+  height: 100%;
+  margin: 3rem 0rem;
+  width: 100%;
+}
+
+.contactForm h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1.5rem;
+  letter-spacing: 1px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}

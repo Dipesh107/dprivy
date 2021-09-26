@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.info {
+  display: flex;
+  padding: 4rem 3.5rem 3rem 5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info-section,
+.photo-section {
+  color: #fff;
+  display: inline-block;
+}
+
+.info-section {
+  width: 60%;
+  margin: 0 3rem;
+  letter-spacing: 1px;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 1rem 2rem;
+}
+
+.hello {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.name {
+  line-height: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 2rem 0 2.5rem;
+}
+
+.subSection {
+  letter-spacing: 1px;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.desp {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin: 1rem 0 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* bouncinf effect */
+@-webkit-keyframes bounce {
+  0% { transform: translateY(-5px)  }
+  50% { transform: translateY(10px) }
+  100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+  0% { transform: translateY(-5px)  }
+  50% { transform: translateY(10px) }
+  100% { transform: translateY(-5px) }
+}
+
+.zio {
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  -webkit-animation: bounce 1s infinite ease-in-out;
+  -o-animation: bounce 1s infinite ease-in-out;
+  -ms-animation: bounce 1s infinite ease-in-out; 
+  -moz-animation: bounce 1s infinite ease-in-out; 
+  animation: bounce 1s infinite ease-in-out;
+}
+
+.logoImages {
+  width: 100%;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.logoImages > a > img {
+  width: 48px;
+  padding: 1rem 1rem 0 0;
+}
+
+.uparrow > img  {
+  position: fixed;
+  display: flex;
+  right: 0;
+  padding-right: 2rem;
+  cursor: pointer;
+  z-index: 99;
+}
