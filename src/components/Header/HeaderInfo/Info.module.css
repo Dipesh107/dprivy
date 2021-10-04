@@ -2,6 +2,7 @@
 
 .info {
   display: flex;
+  flex-direction: row;
   padding: 4rem 3.5rem 3rem 5rem;
   font-family: 'Poppins', sans-serif;
 }
@@ -25,6 +26,13 @@
   margin: 1rem 2rem;
 }
 
+@media screen and (max-width : 480px) {
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .hello {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -38,6 +46,16 @@
   font-size: 3rem;
   font-weight: 500;
   margin: 2rem 0 2.5rem;
+}
+
+@media screen and (max-width : 1020px) {
+  .name {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .subSection {
+    font-size: 1.2rem;
+  }
 }
 
 .subSection {
@@ -96,4 +114,38 @@
   padding-right: 2rem;
   cursor: pointer;
   z-index: 99;
+}
+
+@media screen and (max-width : 1020px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .info-section {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+  .zio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subSection {
+    font-size: 20px;
+  }
+  .info-section {
+    width: 80%;
+  }  
 }

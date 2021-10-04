@@ -21,7 +21,6 @@ const Contact = () => {
 
   return (
     <div id="contactId">
-
       <div className={classes.contactSection}>
         <div className={classes.contactMeTitle} data-aos="fade">
           Contact Me
@@ -50,7 +49,7 @@ const Contact = () => {
           </div>
 
         </div>
-        <div className={classes.copyright} data-aos="fade">
+        <div className={classes.copyright}>
           <p>
             <span>&#9400;</span>{year} DIPESH PATIL | Web Developer | UI/UX Learner
           </p>

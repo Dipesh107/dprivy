@@ -29,6 +29,7 @@
 
 .h2 {
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .toolh2 {
@@ -37,9 +38,10 @@
 
 .icons {
   display: flex;
-  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
-  margin: 1rem 3rem;
+  margin: 1rem 3rem 0;
   cursor: pointer;
 }
 
@@ -169,7 +171,7 @@
 }
 
 .exploreMore a {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #bd3925;
   text-decoration: none;
@@ -355,4 +357,76 @@
 .animatedprogress {
   /* display: flex; */
   display: inline-block;
+}
+
+@media screen and (max-width : 1020px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .ImageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .h2 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+  .ImageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .icons, .tools {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+}
+
+@media screen and (max-width : 550px) {
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width : 480px) {
+  .projectContainer {
+    padding: 2rem 2.5rem;
+  }
+  .container2 {
+   padding: 3rem 0; 
+  }
+  .div1h2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+  }
+  .projectTool, .projectDescription {
+    margin: 1rem 0 1rem 1rem;
+  }
+  .projectTitle a {
+    margin: 1rem;
+  }
+  .checkWebsite {
+    margin: 0 0 2rem 1rem;
+  }
 }

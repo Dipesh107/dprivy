@@ -7,16 +7,21 @@
 }
 
 .contactMeTitle {
-  text-align: center;
   padding: 1rem 0;
   font-size: 3rem;
   font-weight: 900;
   color: #bd3925;
 }
 
+@media screen and (max-width : 480px) {
+  .contactMeTitle {
+    font-size: 2.5rem;
+  }  
+}
+
 .container {
   display: flex;
-  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -129,4 +134,61 @@
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+
+@media  screen and (max-width : 430px) {
+  .container {
+    padding: 3rem 2rem;
+  }
+  .info {
+    font-size: 1rem;
+  }
+  .skypelink a {
+   margin: 0 auto;
+ }
+ .skypelink {
+   font-size: 13px;
+ }
+ .contactSection,
+ .container {
+   padding: 0;
+ }
+ .contactMeTitle {
+   text-align: start;
+ }
+ }
+
+ 
+@media screen and (max-width : 550px) {
+  .info {
+    font-size: 1.5rem;
+  }
+  .infolinks {
+    font-size: 12px;
+  }
+  .skypelink {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width : 930px) {
+  .contactSection {
+    padding: 3rem;
+  }
+  .contactMeTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  } 
 }

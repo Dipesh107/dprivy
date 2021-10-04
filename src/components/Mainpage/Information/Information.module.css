@@ -8,9 +8,9 @@
 
 /* cards section  */
 .card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 80%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -79,8 +79,6 @@ small > a {
   text-decoration: none;
 }
 
-
-
 /* Bottom Section  */
 .bottomSection {
   margin: 3rem 0 3rem 5rem;
@@ -99,4 +97,35 @@ small > a {
   font-size: 0.9rem;
   font-weight: 100;
   line-height: 2rem;
+}
+
+@media screen and (max-width : 1020px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    display: none;
+  }
+  .experience {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  .card {
+    margin: auto;
+  }
 }

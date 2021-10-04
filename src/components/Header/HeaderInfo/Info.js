@@ -23,7 +23,7 @@ const Info = () => {
     <div>
       <div className={classes.info}>
         <div className={classes["photo-section"]}>
-          <img src={process.env.PUBLIC_URL + "/assests/headerimg.png"} alt="Dipesh Patil Logo" className={classes.image} />
+          <img src={process.env.PUBLIC_URL + "/assests/headerimg1.png"} alt="Dipesh Patil Logo" className={classes.image} />
         </div>
         <div className={classes["info-section"]}>
           <p className={classes.hello}>Hello!</p>
@@ -37,15 +37,15 @@ const Info = () => {
             <a href="https://dev.to/dipesh107" target="_blank"><img src={process.env.PUBLIC_URL + "/assests/dev.png"} alt="Dev-logo" /></a>
           </div>
         </div>
-
-      </div >
-
-      <div className={classes.uparrow}>
-        <img onClick={scrollTop} src={process.env.PUBLIC_URL + "/assests/uparrow.png"} style={{ display: showScroll ? 'flex' : 'none' }} alt="up arrow" />
       </div>
+      <div>
+        <div className={classes.uparrow}>
+          <img onClick={scrollTop} src={process.env.PUBLIC_URL + "/assests/uparrow.png"} style={{ display: showScroll ? 'flex' : 'none' }} alt="up arrow" />
+        </div>
 
-      <div className={classes.zio}><img src={process.env.PUBLIC_URL + "/assests/down-arrow.png"} alt="" /></div>
-    </div>
+        <div className={classes.zio}><img src={process.env.PUBLIC_URL + "/assests/down-arrow.png"} alt="" /></div>
+      </div>
+    </div >
   )
 };
 

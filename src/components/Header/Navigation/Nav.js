@@ -1,9 +1,6 @@
 import React from "react";
 import classes from "./Nav.module.css"
 import { Link } from 'react-scroll';
-import About from "../../Mainpage/About/About";
-import Contact from "../../Mainpage/Contact/Contact";
-import Portfolio from "../../Mainpage/Information/Information";
 
 const Nav = () => {
 

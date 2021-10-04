@@ -4,3 +4,9 @@
   height: 100%;
   padding: 2.4rem 0;
 }
+
+@media screen and (max-width:860px) {
+  .container {
+    width: 100vw;
+  }
+}
